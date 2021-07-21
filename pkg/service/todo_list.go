@@ -37,3 +37,4 @@ func (s *TodoListService) Update(userId, id int, input todo.UpdateListInput) err
 	}
 	return s.repo.Update(userId, id, input)
 }
+
